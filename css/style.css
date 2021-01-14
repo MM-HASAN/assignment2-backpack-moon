@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #363958;
+}
+/*--universal css--*/
+.section-padding {
+  padding: 100px 0px;
+}
+.text-colored {
+  color: #76c27e;
+}
+.btn {
+  background-color: #271e59;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  background-color: #76c27e;
+  color: #2a1e59;
+  transition: 0.5 ease all;
+}
+/*!-- \end universea css --*/
+
+/*-- navbar --*/
+.navbar-brand img {
+  width: 200px;
+}
+.nav {
+  float: right;
+  height: auto;
+}
+a.nav-link {
+  margin-right: 20px;
+}
+/*-- \end navbar --*/
+
+/*-- back pack --*/
+#backPack {
+}
+.backPack-content {
+  margin-top: 50px;
+}
+.backPack-content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.backPack-image {
+  background-image: url(../images/icons/green.png);
+  background-size: cover;
+}
+.backPack-image img {
+  width: 100%;
+}
+/*-- \end backpack --*/
+
+/*-- service area --*/
+.single-service {
+  padding: 0px 50px;
+}
+.service-icon img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.service-content h4 {
+  line-height: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.service-content p {
+  font-size: 15px;
+}
+.service-image img {
+  width: 100%;
+}
+/*-- \end service area --*/
+
+/*-- casualbackpack-area --*/
+.casual-heading h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.card-content {
+  border: transparent;
+}
+.card-bg {
+  background-color: rgba(128, 128, 128, 0.404);
+  border-radius: 5px;
+  border: 0px;
+}
+
+h5.card-title {
+  font-weight: 700;
+}
+p.card-text {
+  font-size: 15px;
+}
+.card-footer small {
+  font-weight: 700;
+  font-size: 30px;
+}
+.custom-card-footer {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*-- Contact us --*/
+.custom-form {
+  background: linear-gradient(0.25turn, #76c27e, #2a1e59);
+  color: #fff;
+  border-radius: 5px;
+}
+.contact-heading {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+}
+.form-btn {
+  margin-top: 20px 0px;
+  background: linear-gradient(0.25turn, #76c27e, #2a1e59);
+  width: 100%;
+}
+.social-contacts h5 {
+  font-weight: bold;
+}
+.social-bg {
+  background: linear-gradient(0.25turn, #2a1e59, #76c27e);
+}
+i.fab {
+  font-size: 45px;
+}
+/*-- end contact --*/
